@@ -8,8 +8,18 @@ To execute the tests, run the file run_tests.bat
 
 During test execution, messages(mostly debugging) will be displayed on the console. When the tests have completed, the results will be written to the file report.html
 
-### Prerequisites for running the tests
-To run the tests, the configuration of ruby needs to be equivalent to:
+### Configuration for running the tests
+
+#### OS
+Windows 10
+
+#### Chrome
+The version of ChromeDriver used was 2.5.528161
+
+Chrome Browser version used was 64.0.3282.140 (Official Build) (64-bit)
+
+#### Ruby
+Ruby was configured as follows:
 
 ruby --version
 
