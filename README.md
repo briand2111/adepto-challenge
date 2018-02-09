@@ -9,7 +9,7 @@ To execute the tests, run the file run_tests.bat
 During test execution, messages(mostly debugging) will be displayed on the console. When the tests have completed, the results will be written to the file report.html
 
 ### System Config
-The environment the tests were developed in is as follows:
+Tests were developed in the following environment
 
 #### OS
 Windows 10
