@@ -8,15 +8,16 @@ To execute the tests, run the file run_tests.bat
 
 During test execution, messages(mostly debugging) will be displayed on the console. When the tests have completed, the results will be written to the file report.html
 
-### Configuration for running the tests
+### System Config
+The environment the tests were developed in is as follows:
 
 #### OS
 Windows 10
 
 #### Chrome
-The version of ChromeDriver used was 2.5.528161
+ChromeDriver: Version 2.5.528161
 
-Chrome Browser version used was 64.0.3282.140 (Official Build) (64-bit)
+Chrome Browser version: 64.0.3282.140 (Official Build) (64-bit)
 
 #### Ruby
 Ruby was configured as follows:
