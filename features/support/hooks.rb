@@ -10,6 +10,5 @@ end
 After do
   #Close the browser after each test scenario
   $browser.close
-  sleep(10)
   $log.info("Completed scenario")
 end
