@@ -1,8 +1,8 @@
 @ChallengeTests
-Feature: Run the Challenge tests
+Feature: Adepto Testing Challenge
 
   @ChallengeTest1
-  Scenario: ChallengeTest1
+  Scenario: Challenge Test 1
     When I login to the Adepto Portal using email "testchallenge@maildrop.cc" and password "TestChallenge1"
     Then the "dashboard" page is displayed
     And I verify that the phone number displayed on the dashboard page is "0434 343 434"
@@ -14,7 +14,7 @@ Feature: Run the Challenge tests
 
 
   @ChallengeTest2
-  Scenario: ChallengeTest2
+  Scenario: Challenge Test 2
     When I login to the Adepto Portal using email "testchallenge@maildrop.cc" and password "TestChallenge1"
     Then the "dashboard" page is displayed
     When I click "Search" from the side navigation menu
